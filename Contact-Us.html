@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Kakemasters </title>
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Font -->
+    <link rel="stylesheet" href="CSS/fontawesome-free-5.8.1-web/css/all.css">
+
+    <link rel="stylesheet" href="CSS/Contact-Us.css">
+
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <a href="#" class="navbar-brand ml-3">Kake<span style="color:aqua">masters</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+            aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse"></div>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="Home.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Cake-Builder.html" class="nav-link">Cake Builder</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Set Reminder</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="About-Us.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="Contact-Us.html" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn menu-right-btn border" type="submit" > Template </button>
+            </form>
+
+        </div>
+        </nav>
+    </header>
+        
+
+        <main>
+            <hr>
+           
+            <div class="CakeBuilder">
+
+                <form id="msform">
+                    <h1 class="fs-title">Contact Us</h1>
+                    <h3 class="fs-subtitle"> We'd love to help!</h3>
+                    <h6 class="fs-subtitle">Feel free to  let us know if you have any questions, 
+                        comments or messages, Please don't hesitate to let us know. </h6>
+                    <input id="me" type="text" name="name" placeholder="Name" />
+                    <input id="me" type="text" name="email" placeholder="E-mail" />
+                    <input id="me" type="text" name="subject" placeholder="Subject" />
+                    <textarea id="me" name="message" placeholder="Message"></textarea>
+
+                    <input type="submit" name="submit" class="submit action-button" value="Submit" />
+            
+                </form>
+            </div>
+
+        
+
+
+
+
+
+
+
+
+            <hr>
+
+        </main>
+
+        
+        <footer>
+            <div class="section-5 text-center">
+                <h4 style="margin-top:5%;">Subscribe</h4>
+
+                <div class="form-inline justify-content-center">
+                    <input type="text" name="Email" id="email" placeholder="Email" size="40" class="form-control px-4 py-2">
+                    <input type="button" value="Submit" class="btn btn-danger m-2 px-4 py-2">
+                </div>
+
+                <div class="social" style="margin:5% ;">
+                    <div class="d-flex flex-row justify-content-center">
+                        <i class="fab fa-facebook-f m-2"></i>
+                        <i class="fab fa-twitter m-2"></i>
+                        <i class="fab fa-instagram m-2"></i>
+                        <i class="fab fa-youtube m-2"></i>
+                    </div>
+                </div>
+
+                <hr>
+                <h5> Kakemasters &copy;</h5>
+            </div>
+        </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+
+        window.sr = ScrollReveal({duration: 1000 });
+        sr.reveal('.site-content .d-flex');
+        sr.reveal('.section-1 .card');
+        sr.reveal('.section-2 .d-flex');
+        sr.reveal('.section-3 .col-md-4');
+        sr.reveal('.section-4 .col-md-7, .col-md-5');
+        
+    </script>
+
+</body>
+</html>

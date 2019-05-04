@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    width: 100%;
+    height: 100%;
+}
+
+.section-top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url('../Pictures/coffee-cake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide 30s infinite;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content h1{
+    color: white;
+    font-family: Pacifico;
+    font-size: 60px;
+    letter-spacing: 16px;
+}
+
+.content a{
+    background: #0984e3;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.content p{
+    font-family: Righteous;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 24px;
+}
+
+@keyframes slide{
+    0%{
+        background-image: url('../Pictures/coffee-cake.jpg');
+    }
+    20%{
+        background-image: url('../Pictures/strawberry-pie-cake.jpg');
+    }
+    40%{
+        background-image: url('../Pictures/cake-cake.jpg');
+    }
+    60%{
+        background-image: url('../Pictures/birthday-cake1.jpg');
+    }
+    80%{
+        background-image: url('../Pictures/birthday-cake2.jpg');
+    }
+
+}

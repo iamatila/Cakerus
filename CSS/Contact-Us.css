@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'lato';
+}
+
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: lightcoral !important;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover{
+    color: aqua !important;
+}
+
+.active .nav-link{
+    color: aqua !important;
+}
+
+.menu-right-btn{
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover{
+    color: white;
+    background-color: aqua;
+}
+
+
+
+
+#msform{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 950px;
+    margin: 0 auto; 
+    text-align: center;
+    position: relative;
+}
+
+#msform input, #msform textarea{
+    padding: 15px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    margin-bottom: 10px;
+
+    box-sizing: border-box;
+    font-family: montserrat;
+    color:#2c3e50;
+    font-size: 13px;
+}
+#me{
+    width: 50%;
+}
+/*buttons*/
+#msform .action-button{
+    width: 50%;
+    background: #27ae60;
+    font-weight: bold;
+    color: white;
+    border:0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+#msform .action-button:hover, #msform .action-button:focus{
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27ae60;
+}
+
+/*headings*/
+.fs-title{
+    font-size:40px;
+    text-transform: uppercase;
+    color: #2c3e50;
+    margin-bottom: 20px;
+
+}
+
+.fs-subtitle{
+    font-weight: normal;
+    color:#666;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.social i{
+    color: #EF5651;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px){
+    .section-1 .card{
+        width: 14rem;
+    }
+
+    .section-4 .col-md-7 img{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left:15%;
+    }
+
+    .site-btn{
+        margin-left: 15%;
+    }
+
+    .section-1 .heading-1, .section-2 .heading-2 {
+        font-size: 25px;
+    }
+
+    .section-1 .col-md-4{
+        padding: 5%;
+        margin-left: 8%;
+    }
+
+    .section-1 .card{
+        width: 15rem;
+    }
+
+    .section-2 .heading-1, .section-2 .para{
+        color: black;
+    }
+
+    .section-4 .col-md-5{
+        padding: 0% 15%;
+    }
+
+    footer input[type="button"]{
+        margin-left: 5%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
