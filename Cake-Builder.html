@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" href="CSS/Cake-Builder.css">
 
+    <script type= "text/javascript" src = "Javascript/countries.js"></script>
+
 </head>
 <body>
     
@@ -67,7 +69,8 @@
             <form id="msform">
                 <!-- progressbar-->
                 <ul id="progressbar">
-                    <li class="active">Shapes & Sizes</li>
+                    <li class="active">Country and State</li>
+                    <li>Shapes & Sizes</li>
                     <li>Layers & Contents </li>
                     <li>Social Profiles</li>
                     <li>TEST</li>
@@ -77,6 +80,20 @@
                 
                
                 <!--fieldset-->
+                <fieldset>
+                        <h1 class="fs-title">Country and State</h1>
+                        <h2 class="fs-subtitle">Please choose your country and state</h2>
+
+                    <div style='text-align:center;'>
+                        
+                        Select Country (with states):   <select id="country" name ="country"></select> </br></br>
+                        Select State: <select name ="state" id ="state"></select>  </br> </br> 
+                        
+                        
+                    </div>
+                    <input  type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+
                 <fieldset>
                     <h1 class="fs-title">Shapes and Sizes</h1>
                     <h2 class="fs-subtitle">Pick your Cake shape and size</h2>
@@ -106,7 +123,7 @@
             
             
                     </div>
-            
+                    <input type="button" name="previous" class="previous action-button" value="Previous" />
                     <input  type="button" name="next" class="next action-button" value="Next" />
             
                 </fieldset>
@@ -343,6 +360,10 @@
 <!--jQuery easing plugin -->
 <script src="http://thecodeplayer.com/uploads/js/jquery.easing.min.js" text="text/javascript"></script>
 
+<script language="javascript">
+	populateCountries("country", "state"); // first parameter is id of country drop-down and second parameter is id of state drop-down
+	
+</script>
 
     <script>
 
