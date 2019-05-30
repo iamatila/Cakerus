@@ -104,11 +104,22 @@ label {
 .show-inputbtns .input-buttons {
     display: inline-block;
 }
-
-
-
-
-
+.cs{
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+}
+#country{
+    margin: 35px;
+    height:35px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#state{
+    margin: 15px;
+    height:35px;
+    padding: 5px;
+    border-radius: 10px;
+}
 
 
 
