@@ -99,24 +99,86 @@
             
                     <div class="cc-selector-2">
                             <h1>Shape</h1>
-                    <input id="roundcake" type="radio" name="cakeshape" value="roundcake"/> 
-                    <label class="shape roundcake" for="roundcake"></label>
+                    <div id="sc">
                     <input checked="checked" id="squarecake" type="radio" name="cakeshape" value="squarecake" />
-                    <label class="shape squarecake"for="squarecake"></label>
+                    <label class="shape squarecake"for="squarecake" style="Width: 200px; height:200px;">Square Cake</label>
+                    </div>
+                    <div id="rc">
+                    <input id="roundcake" type="radio" name="cakeshape" value="roundcake"/> 
+                    <label class="shape roundcake" for="roundcake" style="Width: 200px; height:200px;">Round Cake</label>
+                    </div>
+                    <div id="rec">
+                    <input id="rectanglecake" type="radio" name="cakeshape" value="rectanglecake"/> 
+                    <label class="shape rectanglecake" for="rectanglecake" style="Width: 200px; height:200px;">Rectangle Cake</label>
+                    </div>
+                    <div id="bc">
+                    <input id="bundtcake" type="radio" name="cakeshape" value="bundtcake"/>
+                    <label class="shape bundtcake"for="bundtcake" style="Width: 200px; height:200px;">Bundt Cake</label>
+                    </div>
+                    <div id="lc">
+                    <input id="loafcake" type="radio" name="cakeshape" value="loafcake"/>
+                    <label class="shape loafcake"for="loafcake" style="Width: 200px; height:200px;">Loaf Cake</label>
+                    </div>
+                    <div id="jrc">
+                    <input id="jellyrollcake" type="radio" name="cakeshape" value="jellyrollcake" />
+                    <label class="shape jellyrollcake"for="jellyrollcake" style="Width: 200px; height:200px;">Jelly Roll Cake</label>
+                    </div>
+                    <div id="lsc">
+                    <input id="loveshapecake" type="radio" name="cakeshape" value="loveshapecake"/>
+                    <label class="shape loveshapecake"for="loveshapecake" style="Width: 200px; height:200px;">Love Shape Cake</label>
+                    </div>
+                    <div id="osc">
+                    <input id="othershapecake" type="radio" name="cakeshape" value="othershapecake" />
+                    <label class="shape othershapecake"for="othershapecake" style="Width: 200px; height:200px;">Other Shape Cake</label>
+                    </div>
                     </div>
             
                     <div class="cake_size">
                     <h2>Size</h2>
-            
-                    <input id ="cakesize" type="radio" name="size" value="four">4
-                    <input id ="cakesize" type="radio" name="size" value="eight">8
-                    <input id ="cakesize" type="radio" name="size" value="ten">10
-                    <input id ="cakesize" type="radio" name="size" value="eleven">11
-                    <input id ="cakesize" type="radio" name="size" value="twelve" checked>12
-                    <input id ="cakesize" type="radio" name="size" value="fourteen">14
-                    <input id ="cakesize" type="radio" name="size" value="fifteen">15
-                    <input id ="cakesize" type="radio" name="size" value="sixteen">16
-                    <input id ="cakesize" type="radio" name="size" value="eighteen">18
+                    <div class="round_cake">
+                    <label id="cakez" for="round_cake">Round Cake</label>
+                    <input id ="cakesize" type="radio" name="size" value="6*2 inches" checked>6*2 inches
+                    <input id ="cakesize" type="radio" name="size" value="8*1 1/2 inches">8*1 1/2 inches
+                    <input id ="cakesize" type="radio" name="size" value="8*2 inches">8*2 inches
+                    <input id ="cakesize" type="radio" name="size" value="9*1 1/2 inches">9*1 1/2 inches
+                    <input id ="cakesize" type="radio" name="size" value="9*2 inches">9*2 inches
+                    <input id ="cakesize" type="radio" name="size" value="10*2 inches">10*2 inches
+                    </div>
+                    <div class="square_cake">
+                    <label id="cakez" for="square_cake">Square Cake</label>
+                    <input id ="cakesize" type="radio" name="size" value="8*8*1 1/2 inches">8*8*1 1/2 inches
+                    <input id ="cakesize" type="radio" name="size" value="8*8*2 inches">8*8*2 inches
+                    <input id ="cakesize" type="radio" name="size" value="9*9*1 1/2 inches">9*9*1 1/2 inches
+                    <input id ="cakesize" type="radio" name="size" value="9*9*2 inches">9*9*2 inches
+                    <input id ="cakesize" type="radio" name="size" value="10*10*2 inches">10*10*2 inches
+                    </div>
+                    <div class="loaf_cake">
+                    <label id="cakez" for="loaf_cake">Loaf Cake</label>
+                    <input id ="cakesize" type="radio" name="size" value="8*4*2 1/2 inches">8*4*2 1/2 inches
+                    <input id ="cakesize" type="radio" name="size" value="8 1/2*4 1/2*2 1/2 inches">8 1/2*4 1/2*2 1/2 inches
+                    <input id ="cakesize" type="radio" name="size" value="9*5*3 inches">9*5*3 inches
+                    </div>
+                    <div class="bundt_cake">
+                    <label id="cakez" for="bundt_cake">Bundt Cake</label>
+                    <input id ="cakesize" type="radio" name="size" value="7 1/2*3 inches">7 1/2*3 inches
+                    <input id ="cakesize" type="radio" name="size" value="9*3 inches">9*3 inches
+                    <input id ="cakesize" type="radio" name="size" value="10*3 1/2 inches">10*3 1/2 inches
+                    </div>
+                    <div class="rectangle_cake">
+                    <label id="cakez" for="rectangle_cake">Rectangle Cake</label>
+                    <input id ="cakesize" type="radio" name="size" value="11*7*2 inches">11*7*2 inches
+                    <input id ="cakesize" type="radio" name="size" value="13*9*2 inches">13*9*2 inches
+                    </div>
+                    <div class="jellyroll_cake">
+                    <label id="cakez" for="jellyroll_cake">Jelly Roll Cake</label>
+                    <input id ="cakesize" type="radio" name="size" value="10 1/2*15 1/2*1 inches">10 1/2*15 1/2*1 inches
+                    <input id ="cakesize" type="radio" name="size" value="12 1/2*17 1/2*1 inches">12 1/2*17 1/2*1 inches
+                    </div>
+                    <div class="love_cake">
+                    <label id="cakez" for="love_cake">Love Cake</label>
+                    <input id ="cakesize" type="radio" name="size" value="8*2 1/2 inches">8*2 1/2 inches
+                    </div>
+                
                     </div>
 
                     <input type="button" name="previous" class="previous action-button" value="Previous" />
